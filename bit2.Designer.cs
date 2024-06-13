@@ -1,0 +1,72 @@
+﻿/*
+ * Created by SharpDevelop.
+ * User: razvan
+ * Date: 6/13/2024
+ * Time: 12:42 PM
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+namespace datarepresentinginbinary
+{
+	partial class bit2
+	{
+		/// <summary>
+		/// Designer variable used to keep track of non-visual components.
+		/// </summary>
+		private System.ComponentModel.IContainer components = null;
+		public datarepresentinginbinary.bit1 bit11;
+		public datarepresentinginbinary.bit1 bit12;
+		
+		/// <summary>
+		/// Disposes resources used by the control.
+		/// </summary>
+		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+		protected override void Dispose(bool disposing)
+		{
+			if (disposing) {
+				if (components != null) {
+					components.Dispose();
+				}
+			}
+			base.Dispose(disposing);
+		}
+		
+		/// <summary>
+		/// This method is required for Windows Forms designer support.
+		/// Do not change the method contents inside the source code editor. The Forms designer might
+		/// not be able to load this method if it was changed manually.
+		/// </summary>
+		public void InitializeComponent()
+		{
+			this.bit11 = new datarepresentinginbinary.bit1();
+			this.bit12 = new datarepresentinginbinary.bit1();
+			this.SuspendLayout();
+			// 
+			// bit11
+			// 
+			this.bit11.Location = new System.Drawing.Point(4, 0);
+			this.bit11.Name = "bit11";
+			this.bit11.Size = new System.Drawing.Size(38, 32);
+			this.bit11.TabIndex = 0;
+			// 
+			// bit12
+			// 
+			this.bit12.Location = new System.Drawing.Point(48, 0);
+			this.bit12.Name = "bit12";
+			this.bit12.Size = new System.Drawing.Size(38, 32);
+			this.bit12.TabIndex = 1;
+			// 
+			// bit2
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.Controls.Add(this.bit12);
+			this.Controls.Add(this.bit11);
+			this.Name = "bit2";
+			this.Size = new System.Drawing.Size(88, 32);
+			this.Load += new System.EventHandler(this.Bit2Load);
+			this.ResumeLayout(false);
+
+		}
+	}
+}

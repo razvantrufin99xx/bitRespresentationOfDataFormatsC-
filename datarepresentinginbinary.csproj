@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{8ABA3424-4BBD-40CA-857A-AF78F2464429}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>datarepresentinginbinary</RootNamespace>
+    <AssemblyName>datarepresentinginbinary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bit1.cs" />
+    <Compile Include="bit1.Designer.cs">
+      <DependentUpon>bit1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bit2.cs" />
+    <Compile Include="bit2.Designer.cs">
+      <DependentUpon>bit2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bit3.cs" />
+    <Compile Include="bit3.Designer.cs">
+      <DependentUpon>bit3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bit4.cs" />
+    <Compile Include="bit4.Designer.cs">
+      <DependentUpon>bit4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="byte8bits.cs" />
+    <Compile Include="byte8bits.Designer.cs">
+      <DependentUpon>byte8bits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bytes128bits.cs" />
+    <Compile Include="bytes128bits.Designer.cs">
+      <DependentUpon>bytes128bits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bytes16bits.cs" />
+    <Compile Include="bytes16bits.Designer.cs">
+      <DependentUpon>bytes16bits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bytes256bits.cs" />
+    <Compile Include="bytes256bits.Designer.cs">
+      <DependentUpon>bytes256bits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bytes32bits.cs" />
+    <Compile Include="bytes32bits.Designer.cs">
+      <DependentUpon>bytes32bits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bytes64bits.cs" />
+    <Compile Include="bytes64bits.Designer.cs">
+      <DependentUpon>bytes64bits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bytes80bits.cs" />
+    <Compile Include="bytes80bits.Designer.cs">
+      <DependentUpon>bytes80bits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs" />
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs" />
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bit1.resx">
+      <DependentUpon>bit1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bit2.resx">
+      <DependentUpon>bit2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bit3.resx">
+      <DependentUpon>bit3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bit4.resx">
+      <DependentUpon>bit4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="byte8bits.resx">
+      <DependentUpon>byte8bits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bytes128bits.resx">
+      <DependentUpon>bytes128bits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bytes16bits.resx">
+      <DependentUpon>bytes16bits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bytes256bits.resx">
+      <DependentUpon>bytes256bits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bytes32bits.resx">
+      <DependentUpon>bytes32bits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bytes64bits.resx">
+      <DependentUpon>bytes64bits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bytes80bits.resx">
+      <DependentUpon>bytes80bits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
