@@ -14,26 +14,26 @@ namespace datarepresentinginbinary
 		/// Designer variable used to keep track of non-visual components.
 		/// </summary>
 		private System.ComponentModel.IContainer components = null;
-		private datarepresentinginbinary.bit4 bit41;
-		private datarepresentinginbinary.bit4 bit42;
-		private datarepresentinginbinary.bit4 bit43;
-		private datarepresentinginbinary.bit4 bit44;
-		private datarepresentinginbinary.bit4 bit45;
-		private datarepresentinginbinary.bit4 bit46;
-		private datarepresentinginbinary.bit4 bit47;
-		private datarepresentinginbinary.bit4 bit48;
-		private datarepresentinginbinary.bit4 bit49;
-		private datarepresentinginbinary.bit4 bit410;
-		private datarepresentinginbinary.bit4 bit411;
-		private datarepresentinginbinary.bit4 bit412;
-		private datarepresentinginbinary.bit4 bit413;
-		private datarepresentinginbinary.bit4 bit414;
-		private datarepresentinginbinary.bit4 bit415;
-		private datarepresentinginbinary.bit4 bit416;
-		private datarepresentinginbinary.bit4 bit417;
-		private datarepresentinginbinary.bit4 bit418;
-		private datarepresentinginbinary.bit4 bit419;
-		private datarepresentinginbinary.bit4 bit420;
+		public datarepresentinginbinary.bit4 bit41;
+		public datarepresentinginbinary.bit4 bit42;
+		public datarepresentinginbinary.bit4 bit43;
+		public datarepresentinginbinary.bit4 bit44;
+		public datarepresentinginbinary.bit4 bit45;
+		public datarepresentinginbinary.bit4 bit46;
+		public datarepresentinginbinary.bit4 bit47;
+		public datarepresentinginbinary.bit4 bit48;
+		public datarepresentinginbinary.bit4 bit49;
+		public datarepresentinginbinary.bit4 bit410;
+		public datarepresentinginbinary.bit4 bit411;
+		public datarepresentinginbinary.bit4 bit412;
+		public datarepresentinginbinary.bit4 bit413;
+		public datarepresentinginbinary.bit4 bit414;
+		public datarepresentinginbinary.bit4 bit415;
+		public datarepresentinginbinary.bit4 bit416;
+		public datarepresentinginbinary.bit4 bit417;
+		public datarepresentinginbinary.bit4 bit418;
+		public datarepresentinginbinary.bit4 bit419;
+		public datarepresentinginbinary.bit4 bit420;
 		
 		/// <summary>
 		/// Disposes resources used by the control.

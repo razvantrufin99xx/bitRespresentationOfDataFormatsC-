@@ -14,8 +14,8 @@ namespace datarepresentinginbinary
 		/// Designer variable used to keep track of non-visual components.
 		/// </summary>
 		private System.ComponentModel.IContainer components = null;
-		private datarepresentinginbinary.bit4 bit41;
-		private datarepresentinginbinary.bit4 bit42;
+		public datarepresentinginbinary.bit4 bit41;
+		public datarepresentinginbinary.bit4 bit42;
 		
 		/// <summary>
 		/// Disposes resources used by the control.

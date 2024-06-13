@@ -77,5 +77,136 @@ namespace datarepresentinginbinary
 			if(this.bit41.bit14.getC()==Color.Red){this.textBox4.Text += "0";}
 			else {this.textBox4.Text +="1";}
 		}
+		void Button7Click(object sender, EventArgs e)
+		{
+			if(this.byte8bits1.bit41.bit11.getC()==Color.Red){this.textBox5.Text = "0";}
+			else {this.textBox5.Text ="1";}
+			if(this.byte8bits1.bit41.bit12.getC()==Color.Red){this.textBox5.Text += "0";}
+			else {this.textBox5.Text +="1";}
+			if(this.byte8bits1.bit41.bit13.getC()==Color.Red){this.textBox5.Text += "0";}
+			else {this.textBox5.Text +="1";}
+			if(this.byte8bits1.bit41.bit14.getC()==Color.Red){this.textBox5.Text += "0";}
+			else {this.textBox5.Text +="1";}
+			if(this.byte8bits1.bit42.bit11.getC()==Color.Red){this.textBox5.Text += "0";}
+			else {this.textBox5.Text +="1";}
+			if(this.byte8bits1.bit42.bit12.getC()==Color.Red){this.textBox5.Text += "0";}
+			else {this.textBox5.Text +="1";}
+			if(this.byte8bits1.bit42.bit13.getC()==Color.Red){this.textBox5.Text += "0";}
+			else {this.textBox5.Text +="1";}
+			if(this.byte8bits1.bit42.bit14.getC()==Color.Red){this.textBox5.Text += "0";}
+			else {this.textBox5.Text +="1";}
+		}
+		void Button8Click(object sender, EventArgs e)
+		{
+			if(this.bytes161.byte8bits1.bit41.bit11.getC()==Color.Red){this.textBox6.Text = "0";}
+			else {this.textBox6.Text ="1";}
+			if(this.bytes161.byte8bits1.bit41.bit12.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			if(this.bytes161.byte8bits1.bit41.bit13.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			if(this.bytes161.byte8bits1.bit41.bit14.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			if(this.bytes161.byte8bits1.bit42.bit11.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			if(this.bytes161.byte8bits1.bit42.bit12.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			if(this.bytes161.byte8bits1.bit42.bit13.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			if(this.bytes161.byte8bits1.bit42.bit14.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			
+			if(this.bytes161.byte8bits2.bit41.bit11.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			if(this.bytes161.byte8bits2.bit41.bit12.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			if(this.bytes161.byte8bits2.bit41.bit13.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			if(this.bytes161.byte8bits2.bit41.bit14.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			if(this.bytes161.byte8bits2.bit42.bit11.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			if(this.bytes161.byte8bits2.bit42.bit12.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			if(this.bytes161.byte8bits2.bit42.bit13.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			if(this.bytes161.byte8bits2.bit42.bit14.getC()==Color.Red){this.textBox6.Text += "0";}
+			else {this.textBox6.Text +="1";}
+			
+			
+		}
+		void Button9Click(object sender, EventArgs e)
+		{
+			//bytes32bits1
+	
+			if(this.bytes32bits1.bytes161.byte8bits1.bit41.bit11.getC()==Color.Red){this.textBox7.Text = "0";}
+			else {this.textBox7.Text ="1";}
+			if(this.bytes32bits1.bytes161.byte8bits1.bit41.bit12.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes161.byte8bits1.bit41.bit13.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes161.byte8bits1.bit41.bit14.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes161.byte8bits1.bit42.bit11.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes161.byte8bits1.bit42.bit12.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes161.byte8bits1.bit42.bit13.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes161.byte8bits1.bit42.bit14.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			
+			if(this.bytes32bits1.bytes161.byte8bits2.bit41.bit11.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes161.byte8bits2.bit41.bit12.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes161.byte8bits2.bit41.bit13.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes161.byte8bits2.bit41.bit14.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes161.byte8bits2.bit42.bit11.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes161.byte8bits2.bit42.bit12.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes161.byte8bits2.bit42.bit13.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes161.byte8bits2.bit42.bit14.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			
+			
+			if(this.bytes32bits1.bytes162.byte8bits1.bit41.bit11.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes162.byte8bits1.bit41.bit12.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes162.byte8bits1.bit41.bit13.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes162.byte8bits1.bit41.bit14.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes162.byte8bits1.bit42.bit11.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes162.byte8bits1.bit42.bit12.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes162.byte8bits1.bit42.bit13.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes162.byte8bits1.bit42.bit14.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			
+			if(this.bytes32bits1.bytes162.byte8bits2.bit41.bit11.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes162.byte8bits2.bit41.bit12.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes162.byte8bits2.bit41.bit13.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes162.byte8bits2.bit41.bit14.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes162.byte8bits2.bit42.bit11.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes162.byte8bits2.bit42.bit12.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes162.byte8bits2.bit42.bit13.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			if(this.bytes32bits1.bytes162.byte8bits2.bit42.bit14.getC()==Color.Red){this.textBox7.Text += "0";}
+			else {this.textBox7.Text +="1";}
+			
+		}
 	}
 }
